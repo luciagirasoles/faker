@@ -44,8 +44,6 @@ class TestFakerTime < Test::Unit::TestCase
     end
   end
 
-  # TODO: Add tests for Faker::Date.forward(from: "Thu, 22 Jun 2023", days: 10)
-
   def test_backward
     tomorrow = Date.today + 1
 
